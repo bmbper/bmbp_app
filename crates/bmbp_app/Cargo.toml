@@ -9,8 +9,8 @@ readme.workspace = true
 homepage.workspace = true
 repository.workspace = true
 documentation.workspace = true
-
 [dependencies]
+bmbp_config = { workspace = true }
 bmbp_ctx_vars = { workspace = true }
 bmbp_lib_ui = { workspace = true }
 bmbp_marco = { workspace = true }
@@ -26,3 +26,8 @@ serde_repr = { workspace = true }
 rust-embed = { workspace = true }
 salvo = { workspace = true }
 tera = { workspace = true }
+tokio= { workspace = true}
+async_static = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+once_cell = { workspace = true}
