@@ -1,0 +1,28 @@
+[package]
+name = "bmbp_app"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+license.workspace = true
+readme.workspace = true
+homepage.workspace = true
+repository.workspace = true
+documentation.workspace = true
+
+[dependencies]
+bmbp_ctx_vars = { workspace = true }
+bmbp_lib_ui = { workspace = true }
+bmbp_marco = { workspace = true }
+bmbp_http_type = { workspace = true }
+bmbp_rdbc = { workspace = true }
+bmbp_auth = { workspace = true }
+bmbp_app_util = { workspace = true }
+bmbp_util = { workspace = true }
+bmbp_curd = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_repr = { workspace = true }
+rust-embed = { workspace = true }
+salvo = { workspace = true }
+tera = { workspace = true }

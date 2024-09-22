@@ -1,0 +1,66 @@
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+[workspace.package]
+version = "0.2.8"
+edition = "2021"
+authors = ["bmbp<rs_bmbp.163.com>"]
+description = "BMBP RDBC"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/bmbper/bmbp_rdbc"
+repository = "https://github.com/bmbper/bmbp_rdbc"
+documentation = "https://github.com/bmbper/bmbp_rdbc"
+[workspace.build]
+openssl = "/opt/homebrew/Cellar/openssl@3/3.3.0"
+[workspace.dependencies]
+async-lock = "3.4.0"
+async-once-cell = "0.5.3"
+async-recursion = "1.1.1"
+async_static = "0.1.3"
+async-trait = "0.1.81"
+base64 = "0.22.1"
+case_style = "0.2.1"
+chrono = "0.4.38"
+convert_case = "0.6.0"
+dashmap = "6.0.1"
+futures = "0.3.30"
+lazy_static = "1.5.0"
+libsm = "0.6.0"
+log = "0.4.22"
+md5 = "0.7.0"
+openssl = { version = "0.10.64", features = ["vendored"] }
+openssl-sys = "0.9.102"
+once_cell = "1.19.0"
+rand = "0.8.5"
+regex = "1.10.5"
+reqwest = "0.12.5"
+rs_sha256 = "0.1.3"
+rust-embed = "8.5.0"
+salvo = { version = "0.68.5", features = [
+    "default",
+    "serve-static",
+    "cors",
+    "size-limiter",
+    "logging",
+] }
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.10"
+serde_repr = "0.1.19"
+svg = "0.17.0"
+syn = { version = "2.0.72", features = [
+    "full",
+    "parsing",
+    "printing",
+    "proc-macro",
+    "clone-impls",
+] }
+tokio = { version = "1.38.0", features = ["full"] }
+tokio-postgres = { version = "0.7.12", features = ["with-chrono-0_4"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
+toml = "0.8.14"
+tera = "1.20.0"
+quote = "1.0.36"
+uuid = { version = "1.1.3", features = ["serde", "v4"] }
+bytes="1.1.0"
