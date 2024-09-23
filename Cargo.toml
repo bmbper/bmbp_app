@@ -17,8 +17,8 @@ openssl = "/opt/homebrew/Cellar/openssl@3/3.3.0"
 bmbp_config = { path="crates/bmbp_config"}
 
 # 宏
-bmbp_marco = "0.0.12"
-bmbp_util = "0.0.4"
+bmbp_marco = "0.0.13"
+bmbp_util = "0.0.5"
 bmbp_app_util = "0.0.2"
 # 静态资源
 bmbp_lib_ui = "0.1.6"
