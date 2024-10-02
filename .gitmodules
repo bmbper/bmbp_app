@@ -1,3 +1,6 @@
 [submodule "crates/bmbp_config"]
 	path = crates/bmbp_config
 	url = git@github.com:bmbper/bmbp_config.git
+[submodule "crates/bmbp_home"]
+	path = crates/bmbp_home
+	url = git@github.com:bmbper/bmbp_home.git
