@@ -15,6 +15,7 @@ documentation = "https://github.com/bmbper/bmbp_app"
 openssl = "/opt/homebrew/Cellar/openssl@3/3.3.0"
 [workspace.dependencies]
 bmbp_config = { path="crates/bmbp_config"}
+bmbp_home = {path="crates/bmbp_home"}
 
 # 宏
 bmbp_marco = "0.0.13"

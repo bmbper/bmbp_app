@@ -4,6 +4,7 @@ use bmbp_app_util::{
 };
 use bmbp_config::build_bmbp_config_router;
 use bmbp_ctx_vars::BMBP_CONTEXT_VARS;
+use bmbp_home::build_bmbp_home_router;
 use bmbp_lib_ui::build_bmbp_ui_lib_router;
 use bmbp_rdbc::RdbcOrm;
 use bmbp_rdbc::{RdbcDataBase, RdbcDataSource};
@@ -49,7 +50,8 @@ async fn main() {
         .hoop(auth_token_middle)
         .hoop(auth_user_middle)
         .hoop(orm_middle)
-        .push(build_bmbp_config_router());
+        .push(build_bmbp_config_router())
+        .push(build_bmbp_home_router());
     Server::new(acceptor).serve(router).await;
 }
 
