@@ -4,3 +4,12 @@
 [submodule "crates/bmbp_home"]
 	path = crates/bmbp_home
 	url = git@github.com:bmbper/bmbp_home.git
+[submodule "crates/bmbp_auth_middle"]
+	path = crates/bmbp_auth_middle
+	url = git@github.com:bmbper/bmbp_auth_middle.git
+[submodule "crates/bmbp_rbac"]
+	path = crates/bmbp_rbac
+	url = git@github.com:bmbper/bmbp_rbac.git
+[submodule "crates/bmbp_auth_rbac"]
+	path = crates/bmbp_auth_rbac
+	url = git@github.com:bmbper/bmbp_auth_rbac.git
