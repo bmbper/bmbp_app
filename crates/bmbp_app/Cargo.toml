@@ -12,6 +12,9 @@ documentation.workspace = true
 [dependencies]
 bmbp_config = { workspace = true }
 bmbp_home = { workspace = true }
+bmbp_rbac = { workspace = true }
+
+
 bmbp_ctx_vars = { workspace = true }
 bmbp_lib_ui = { workspace = true }
 bmbp_marco = { workspace = true }
